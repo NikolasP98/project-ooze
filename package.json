@@ -1,5 +1,5 @@
 {
-	"name": "oo",
+	"name": "ooze",
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
@@ -22,5 +22,6 @@
 		"typescript": "^5.0.0",
 		"vite": "^5.0.3"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {}
 }
