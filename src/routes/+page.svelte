@@ -18,6 +18,7 @@ const spawnLocation = {x: 800, y:300}
 <h1>Project OOZE</h1>
 <p>Visit to read the documentation</p>
 
+
 {#each draggableItems as item}
   <Draggable coords={{x:100, y:200}}>
     {item.title}
@@ -25,11 +26,10 @@ const spawnLocation = {x: 800, y:300}
 {/each}
 
 {#each draggableItems as item}
-  <Draggable coords={{x:100, y:100}}>
+<Draggable coords={{x:100, y:100}}>
 	<Card title={item.title}/>
-  </Draggable>
+</Draggable>
 {/each}
-
 
 
 
@@ -39,6 +39,7 @@ const spawnLocation = {x: 800, y:300}
 		<circle cx={20} cy={20} r={20} />
 	</svg>
 </Draggable>
+
   
 
 
@@ -46,7 +47,7 @@ const spawnLocation = {x: 800, y:300}
 
 <style>
 
-svg {
+	svg {
 		width: 40px;
 		height: 40px;
 		margin: -8px;
@@ -54,6 +55,7 @@ svg {
 	circle {
 		fill: #ff3e00;
 	}
+
 	h1 {
 		font-size: 50px;
 	}
