@@ -69,9 +69,6 @@
 
 	.pickedup {
 		cursor: grabbing;
-		/* transform: scale(1.02); */
-
-		transition: transform 0.1s ease-in-out;
 	}
 
 	div > :global(.card)::after {
